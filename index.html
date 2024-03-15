@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs Board</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/676dbb370b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Jobs Board</h1>
+        <div>
+          <li><i class="fa-solid fa-house"></i>Home</li>
+          <li><i class="fa-solid fa-file"></i>Find jobs</li>
+          <li><i class="fa-solid fa-chart-simple"></i>Performance</li>
+          <li><i class="fa-solid fa-bookmark"></i>Bookmarks</li>
+          <li><i class="fa-solid fa-message"></i>Message</li>
+          <li><i class="fa-solid fa-gear"></i>Setting</li>
+        </div>
+        <div class="profile">
+          <img src="https://placehold.co/60x60.png" />
+          <div class="profile-info">
+            <h3>Christian</h3>
+            <p>Software developer</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-section">
+        <div class="search-section">
+          <input type="search" placeholder="Search Job" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="recommendation">
+          <h3>Recommendation</h3>
+          <div class="recommendation-list">
+            <span
+              >Data Science<i class="fa-solid fa-xmark" onclick="cancell()"></i
+            ></span>
+            <span
+              >Data Engineer<i class="fa-solid fa-xmark" onclick="cancell()"></i
+            ></span>
+            <span
+              >Data Analyst<i class="fa-solid fa-xmark" onclick="cancell()"></i
+            ></span>
+            <span
+              >Data Visualization<i
+                class="fa-solid fa-xmark"
+                onclick="cancell()"
+              ></i
+            ></span>
+            <span
+              >CRM Analyst<i class="fa-solid fa-xmark" onclick="cancell()"></i
+            ></span>
+          </div>
+        </div>
+        <div class="Sort">
+          <h3>sort</h3>
+          <select id="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+          </select>
+        </div>
+        <div class="job-list">
+          <div class="job-details">
+            <img src="./images/google.png" width="90px" />
+            <div class="descriptions">
+              <h2>Google</h2>
+              <p>Data science, Data Engineer</p>
+              <p><i class="fa-solid fa-location-dot"></i>Toronto</p>
+              <div class="icon-desc">
+                <p><i class="fa-solid fa-business-time"></i>1 hour ago</p>
+                <p><i class="fa-solid fa-hourglass-end"></i>Full-time</p>
+                <p><i class="fa-solid fa-people-group"></i>Application</p>
+              </div>
+            </div>
+            <div class="payments">
+              <h3>Division</h3>
+              <p>300k per year</p>
+              <p>Commit to the Jobs</p>
+            </div>
+          </div>
+          <div class="job-details">
+            <img src="./images/linkedin.png" width="90px" />
+            <div class="descriptions">
+              <h2>Google</h2>
+              <p>Data science, Data Engineer</p>
+              <p><i class="fa-solid fa-location-dot"></i>Toronto</p>
+              <div class="icon-desc">
+                <p><i class="fa-solid fa-business-time"></i>1 hour ago</p>
+                <p><i class="fa-solid fa-hourglass-end"></i>Full-time</p>
+                <p><i class="fa-solid fa-people-group"></i>Application</p>
+              </div>
+            </div>
+            <div class="payments">
+              <h3>Division</h3>
+              <p>300k per year</p>
+              <p>Commit to the Jobs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="img-jobdesc">
+          <img src="./images/google.png" width="90px" />
+          <h2>Google</h2>
+          <p>Data Scientists</p>
+        </div>
+        <div class="job-descriptions">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            quae culpa beatae iste doloribus libero, quas quasi dicta corporis
+            distinctio commodi sed nesciunt modi a quisquam omnis iure
+            voluptatibus aspernatur!
+          </p>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+            quidem dolor expedita esse itaque quae reprehenderit tenetur,
+            tempora cupiditate aperiam. Maxime dicta beatae nam odio sequi ab
+            dignissimos? Molestiae, qu
+          </p>
+        </div>
+        <div class="action-buttons">
+            <span class="span1">Apply Now</span>
+            <span class="span2">Save job</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
